@@ -16,9 +16,9 @@ const Header = () => {
     const handleSearchOnClick = evt => {
         evt.preventDefault()
 
-        if(search.trim() === ''){
-            inputSearch.current.focus() = "red"
-        }
+        // if(search.trim() === ''){
+        //     inputSearch.current.focus() = "red"
+        // }
     }
 
     return(
